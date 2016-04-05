@@ -1,0 +1,47 @@
+
+
+
+body{
+	font-family: arial;
+}
+nav{
+	padding:20px 0 0 10px;
+	/*background-color: red;*/
+	width: 200px;
+}
+	nav ul {
+	list-style: none;
+	padding-left: 0;
+}
+nav li a{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #e5005f;
+	color: white;
+	margin:2px 0px;
+	padding: 5px 10px;
+	font-size: x-large;
+}
+nav li a:hover,#active{
+	background-color:#333;
+}
+
+nav > a {
+	display: block;
+	text-decoration: none;
+	color: #333;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-weight: bold;
+	/*background-color: blue;*/
+}
+/*nav ul ~ a{
+	display:block;
+}
+another way to approach a items after ul in navbar*/
+
+nav > a:hover{
+	color:#e5005f;
+}
+
