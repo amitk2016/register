@@ -55,8 +55,9 @@ main aside p{
 }
 
 main{
-	width: 38%;
-	/*background-color: orange;*/
+	width: 49%;
+	background-color: orange;
+	float: left;
 }
 
 hr{
@@ -123,6 +124,7 @@ article div:nth-of-type(2){
 
 .related{
 	position: relative;
+
 }
 
 #scroll-right{
@@ -143,6 +145,24 @@ article div:nth-of-type(2){
 	position: relative;
 	top: -20px;
 }
+
+#extra{
+	width: 49%;
+	/*background-color: red;*/
+	float: right;
+}
+
+#social{
+	background-color:#e5005f;
+	padding:40px;
+	color:white;
+	text-align: right;
+}
+#social a{
+	color: inherit;
+}
+
+
 
 
 
