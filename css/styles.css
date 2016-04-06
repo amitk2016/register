@@ -3,11 +3,14 @@
 
 body{
 	font-family: arial;
+	padding-left: 250px;
 }
 nav{
 	padding:20px 0 0 10px;
 	/*background-color: red;*/
 	width: 200px;
+	position: fixed;
+	left: 15px;
 }
 	nav ul {
 	list-style: none;
@@ -44,4 +47,32 @@ another way to approach a items after ul in navbar*/
 nav > a:hover{
 	color:#e5005f;
 }
+
+main aside p{
+	background-color:#eee;
+	padding: 10px;
+
+}
+
+main{
+	width: 38%;
+	/*background-color: orange;*/
+}
+
+hr{
+	border:none;
+	border-top:1px solid #ddd;
+}
+article img{
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
 
