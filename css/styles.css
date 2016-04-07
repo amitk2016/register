@@ -248,6 +248,57 @@ article div:nth-of-type(2){
 	clear: both;
 }
 
+#sponsors img{
+	width:30%;
+	float:left;
+	padding: 6px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	margin: 6px;
+}
 
+#property h1 span{
+	color: #777;
+	display: block;
+	font-size: 16px;
+	text-transform:lowercase;
+}
+#property h1{
+	/*border:1px solid #eee;*/
+}
 
+#property img{
+	float: left;
+	margin-right: 10px;
+}
+#property a{
+	font-size: 16px;
+	color:#333;
+	text-decoration:none;
+}
+#property article{
+	/*border-bottom: 1px dashed #ddd;*/
+	padding-bottom: 10px;
+}
+#property article:after{
+	content: '';
+	display: block;
+	clear: both;
+}
 
+#property h1 span{
+	font-size: 14px;
+}
+#property h1:hover{
+	text-decoration: underline;
+}
+
+#bayleys{
+	background-color: white;
+	border:2px solid #333;
+	padding: 8px;
+	box-sizing: border-box;
+}
+#property hr{
+	border:1px solid #333;
+}
